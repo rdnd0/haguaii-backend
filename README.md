@@ -7,7 +7,7 @@ Create your own button shirt based on the coolest illustrations
 ## User Stories
 
 -  **404:** As an anon/user I can see a 404 page if I try to reach a page that does not exist so that I know it's my fault
--  **Signup:** As an anon I can sign up in the platform so that I can save my configured shirt (can be configured without being logged)
+-  **Signup:** As an anon I can sign up in the platform so that I can save my configured shirt (can be configured without being logged in)
 -  **Login:** As a user I can login to the platform so that I can save my shirt
 -  **Logout:** As a user I can logout from the platform so no one else can use it
 -  **Configure shirt** As a user I can configure my own shirt based on pre-designed illustrations (no login required)
