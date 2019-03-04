@@ -8,7 +8,7 @@ const shirtSchema = new Schema ({
   composition: String,
   size: {
     type: String,
-    enum : ['S','M','L','XL','XXL'],
+    enum : ['S','M','L','XL','2XL'],
     default: 'M'
   },
   user: [{
