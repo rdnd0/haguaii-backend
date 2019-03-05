@@ -6,7 +6,8 @@ require("dotenv").config();
 const Shirt = require('../models/shirt');
 
 router.post('/', (req, res, next) => {
-  const { user, image, size } = req.body;
+  const { user, size } = req.body;
+  const image = req.body.shirtURL;
   const price = 70;
   const composition = '100% silky cotton'
  
