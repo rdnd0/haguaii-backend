@@ -9,7 +9,7 @@ router.get('/', (req, res, next) => {
     shirt_url: 'http://localhost:5000/images/shirt-brocoli.png',
     components: [{
       short_name: 'brocoli',
-      image: 'http://localhost:5000/images/brocoli.png'
+      image: `'${process.env.REACT_APP_BASE_URL}/images/brocoli.png'`
     }]
   }, 
   {
