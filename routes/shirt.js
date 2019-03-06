@@ -9,8 +9,7 @@ router.post('/', (req, res, next) => {
   const { user, size } = req.body;
   const image = req.body.shirtURL;
   const price = 70;
-  const composition = '100% silky cotton'
- 
+  const composition = '100% silky cotton';
   const newShirt = new Shirt({
     image,
     price,
@@ -29,7 +28,6 @@ router.post('/', (req, res, next) => {
 });
 
 router.get('/', (req, res, next) => {
-  //I wonder from where can I get the current user id.. can I use this const currentUser = req.session.currentUser.username; might need change in app.js
   Shirt.find({user: currentUser})
     .then((user) => {
       res.status(200).json({user})
